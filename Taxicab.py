@@ -9,11 +9,11 @@ class Taxicab:
         self.y_coordinate = y
         self.odometer = 0
 
-    def move_x(self,value):
+    def move_x(self,distance):
         self.x_coordinate += distance
         self.odometer += abs(distance)
 
-    def move_y(self,value):
+    def move_y(self,distance):
         self.y_coordinate += distance
         self.odometer += abs(distance)
 
